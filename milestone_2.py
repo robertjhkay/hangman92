@@ -5,6 +5,7 @@ print(word)
 
 guess = input("Please choose a single letter ")
 
-if len(guess) == 1:
-    print("Good guess!")
-else: print("Oops! That is not a valid input.")
+def input_check(x):
+    if len(x) == 1:
+        print("Good guess!")
+    else: print("Oops! That is not a valid input.")
