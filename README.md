@@ -12,6 +12,18 @@ Hangman is a classic game in which a player thinks of a word and the other playe
 This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it. 
 
 ## 2. Installation <a name="section2"></a>
+The repository for this program can be copied using the following command:
+
+```
+git clone <https://github.com/robertjhkay/hangman92.git>
+
+```
+
+To use the final program run the following:
+
+```
+python milestone_5.py
+```
 This program will work on python 3. Please use milestone_5.py for the completed game.
 
 

@@ -1,6 +1,4 @@
-if __name__ == "__main__":
-
-    import random
+import random
 
 '''
 The following creates the class hangman. It defines an object based on a list of possible words.
@@ -66,6 +64,6 @@ def play_game(word_list):
             print("Congratulations. You won the game!")
             terminate += 1
                    
+if __name__ == "__main__":
 
-
-play_game(['apple', 'pear', 'orange','banana', 'kiwi'])
+    play_game(['apple', 'pear', 'orange','banana', 'kiwi'])
