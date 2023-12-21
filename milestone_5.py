@@ -55,13 +55,16 @@ The following function utilizes the hangman object and initializes the game.
 
 def play_game(word_list):
     game = Hangman(word_list, 5)
-    while '_' in game.word_guessed:
+    terminate = 0
+    while terminate == 0:
         if game.num_lives == 0:
             print("You lost!")
+            terminate += 1
         elif game.num_letters > 0:
             game.ask_for_input()
         elif game.num_lives > 0 and game.num_letters == 0:
             print("Congratulations. You won the game!")
+            terminate += 1
                    
 
 
